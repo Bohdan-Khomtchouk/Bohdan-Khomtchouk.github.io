@@ -26,6 +26,7 @@
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#publications">Publications</a></li>
+					<li><a href="#packages">R/Bioconductor packages</a></li>
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#conferences">Conferences</a></li>
 					<li><a href="#awards">Awards</a></li>
@@ -76,7 +77,7 @@
 					<a href="http://biomed.med.miami.edu/graduate-programs/human-genetics-and-genomics">Human Genetics and Genomics (computational track)</a>.  My dissertation title is:
 					"Developing mathematical and computational epigenetic software packages and multidimensional analysis pipelines for ChIP-seq and RNA-seq studies in the genomic fight against alcoholism."
 					My thesis work to-date includes a <a href="http://www.nature.com/mp/journal/vaop/ncurrent/full/mp2016131a.html">Molecular Psychiatry paper</a>, 
-					<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1260-x">BMC Bioinformatics paper</a>, <a href="http://scfbm.biomedcentral.com/articles/10.1186/s13029-014-0030-2">Source Code for Biology and Medicine paper</a>, and <a href="https://github.com/Bohdan-Khomtchouk/geneXtendeR">more coming</a>.
+					<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1260-x">BMC Bioinformatics paper</a>, <a href="http://scfbm.biomedcentral.com/articles/10.1186/s13029-014-0030-2">Source Code for Biology and Medicine paper</a>, and an <a href="https://bioconductor.org/packages/geneXtendeR/">R/Bioconductor package</a>.
 					I have also published an <a href="https://www.crcpress.com/Survival-Guide-to-Organic-Chemistry-Bridging-the-Gap-from-General-Chemistry/McMahon-Khomtchouk-Wahlestedt/p/book/9781498777070">organic chemistry textbook</a> at CRC Press (Taylor & Francis).
 					In addition, I have made extensive contributions to the fields of mathematical genetics (<a href="http://dx.doi.org/10.1101/076679">here</a>, <a href="http://dx.doi.org/10.1101/066381">here</a>, 
 					and <a href="http://arxiv.org/abs/1402.4095">here</a>), databases and search engines (<a href="http://dx.doi.org/10.1101/069575">here</a>), visualization (<a href="http://scfbm.biomedcentral.com/articles/10.1186/s13029-014-0030-2">here</a>, <a href="http://dx.doi.org/10.1101/076463">here</a>), 
@@ -184,6 +185,38 @@
 				<small>
 					Bohdan B. Khomtchouk
 				</small>
+			
+			
+			
+			
+			
+				<div id="packages">
+				
+				<h2>R/Bioconductor packages</h2>
+				
+				<h4>
+				geneXtendeR
+					<small>	
+						<a href="https://bioconductor.org/packages/geneXtendeR/">(Bioconductor)</a>
+					</small>
+					<small>
+						<a href="https://github.com/Bohdan-Khomtchouk/geneXtendeR">(GitHub)</a>
+					</small>
+				</h4>
+				<p>
+					geneXtendeR is an R/Bioconductor package for histone modification ChIP-seq analysis. It is designed to optimally annotate a histone 
+					modification ChIP-seq peak input file with functionally important genomic features (e.g., genes associated with peaks) 
+					based on optimization calculations. geneXtendeR optimally extends the boundaries of every gene in a genome by some genomic 
+					distance (in DNA base pairs) for the purpose of flexibly incorporating cis-regulatory elements, such as enhancers and 
+					promoters, as well as downstream elements that are important to the function of the gene (relative to an epigenetic histone 
+					modification ChIP-seq dataset). geneXtendeR computes optimal gene extensions tailored to the broadness of the specific epigenetic 
+					mark (e.g., H3K9me1, H3K27me3), as determined by a user-supplied ChIP-seq peak input file. As such, geneXtendeR maximizes the 
+					signal-to-noise ratio of locating genes closest to and directly under peaks. By performing a computational expansion of this nature, 
+					ChIP-seq reads that would initially not map strictly to a specific gene can now be optimally mapped to the regulatory regions of the gene, 
+					thereby implicating the gene as a potential candidate, and thereby making the ChIP-seq experiment more successful. Such an approach becomes 
+					particularly important when working with epigenetic histone modifications that have inherently broad peaks.
+				</p>
+			</div>
 
 
 			<div id="projects">
@@ -240,26 +273,6 @@
 					from the list of merged vcf files, thereby affecting other post-analysis scripts such as VQSR for downstream filtering of the data.
 					Current work is underway to transition Triglav from an HPC environment to a cloud infrastructure. Also, an indel-merge feature is 
 					currently under development and testing.
-				</p>
-				
-				<h4>
-				geneXtendeR
-					<small>
-						<a href="https://github.com/Bohdan-Khomtchouk/geneXtendeR">(GitHub)</a>
-					</small>
-				</h4>
-				<p>
-					geneXtendeR is an R package for histone modification ChIP-seq analysis. It is designed to optimally annotate a histone 
-					modification ChIP-seq peak input file with functionally important genomic features (e.g., genes associated with peaks) 
-					based on optimization calculations. geneXtendeR optimally extends the boundaries of every gene in a genome by some genomic 
-					distance (in DNA base pairs) for the purpose of flexibly incorporating cis-regulatory elements, such as enhancers and 
-					promoters, as well as downstream elements that are important to the function of the gene (relative to an epigenetic histone 
-					modification ChIP-seq dataset). geneXtendeR computes optimal gene extensions tailored to the broadness of the specific epigenetic 
-					mark (e.g., H3K9me1, H3K27me3), as determined by a user-supplied ChIP-seq peak input file. As such, geneXtendeR maximizes the 
-					signal-to-noise ratio of locating genes closest to and directly under peaks. By performing a computational expansion of this nature, 
-					ChIP-seq reads that would initially not map strictly to a specific gene can now be optimally mapped to the regulatory regions of the gene, 
-					thereby implicating the gene as a potential candidate, and thereby making the ChIP-seq experiment more successful. Such an approach becomes 
-					particularly important when working with epigenetic histone modifications that have inherently broad peaks.
 				</p>
 			</div>
 			
