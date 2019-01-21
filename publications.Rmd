@@ -2,4 +2,4 @@
 title: "Publications"
 ---
 
-Yikes, I'd rather spend this time coding so... please just check my [Google Scholar Citations page](https://scholar.google.com/citations?hl=en&user=pa6Zh9QAAAAJ&view_op=list_works&sortby=pubdate).
+Yikes, this is a rather long list to format, so I'd rather spend this time [coding on Github](https://github.com/Bohdan-Khomtchouk) (or writing grants) so... please just check my (automatically generated) [Google Scholar Citations page](https://scholar.google.com/citations?hl=en&user=pa6Zh9QAAAAJ&view_op=list_works&sortby=pubdate) for a full publications list.
