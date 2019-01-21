@@ -1,0 +1,43 @@
+---
+title: "Lab Alumni"
+---
+
+<a href="https://ie2.uoregon.edu/people/barber/" target="_blank">Dr. Matthew Barber</a>, PhD 2011 -- Current Position: Assistant Professor, University of Oregon
+ 
+Dr. Olivier Binda, Post-Doc 2009 -- Current Position: Lecturer, Newcastle Cancer Center, Newcastle University,  England
+ 
+<a href="http://www.linkedin.com/in/dennisjbua" target="_blank">Dr. Dennis Bua</a>, PhD 2012 -- Current Position: Editor at Bio-protocol CA, USA
+ 
+Dr. Scott Carlson, Post-Doc 2017 -- Current Position: Senior Scientist at Visterra, Inc., Boston MA
+
+Dr. Candy Chen, Post-Doc 2018 – Current Position:  Postdoc, MD Anderson, Texas, USA
+
+Shuai Chen, Masters 2011 -- Current Position: Executive Director SCRAP
+ 
+Dr. Peggie Cheung, PhD 2012 -- Current Position: Research Scientist, Stanford, CA USA
+ 
+<a href="http://greenlab.umbc.edu" target="_blank">Dr. Erin Green</a>, Post-Doc 2013 -- Current Position: Assistant Professor, UMBC, Baltimore, MD, USA
+ 
+Dr. Loulia Kachirskaia, PhD 2008 -- Current Position: CoDesign Innovation Consultant, Kaiser Care Management Institute
+ 
+Dr. Alex Kuo, PhD 2011 -- Current Position: Research Scientist, Stanford, CA USA
+ 
+<a href="http://lifeserv.bgu.ac.il/wp/ledan/" target="_blank">Dr. Dan Levy</a>, Post-Doc 2012 -- Current Position: Assistant Professor, Faculty of Health Sciences, Ben Gurion University of the Negev, Israel
+ 
+Dr. Gloria Mas Martin, Post-Doc 2013 -- Current Position: Associate Scientist University of Miami, Miller School of Medicine
+ 
+<a href="mailto:munehira.yoichi.kb@daiichisankyo.co.jp"> Dr. Yoichi Munehira</a>, Visiting Scholar 2014-2016 -- Current Position: Researcher, Daiichi Sankyo Co, Shinagawa, Tokyo, Japan
+ 
+Dr. Kaitlyn Coil Moore, PhD 2014 -- Current Position:  Group Lead Assay Development, ArcherDX, Inc., Boulder, CO, USA
+ 
+Dr. Rick van Nuland, Post-Doc 2017 -- Current Position: Program Manager Life Science at Lygature, Utrecht, The Netherlands
+ 
+<a href="https://iab.univ-grenoble-alpes.fr/sites/iab/files/presentation_groupe_reynoird_01-2018.pdf" target="_blank"> Dr. Nicolas Reynoird</a>, Post-Doc 2014 -- Current Position:  Researcher CNRS at the Institute for Advanced Biosciences (INSERM - CNRS - Université Grenoble Alpes), France
+
+Dr. Saumya Sankaran, PhD 2016 -- Current Position: Lecturer, Stanford University, CA USA
+ 
+<a href="https://vari.vai.org/research-groups/" target="_blank">Dr. Xiaobing Shi</a>, Post-Doc 2008 -- Current Position: Professor, Van Andel Research Institute, Grand Rapids, MI, USA
+ 
+<a href="https://www.cancercommons.org/" target="_blank">Dr. Lisandra West-Odell</a>, PhD 2011 -- Current Position: Scientist and Product Manager at Cancer Commons, Los Altos, CA, USA
+
+Dr. Ze Yang, PhD 2016 -- Current Position: Post-Doc Hynes Lab, Stanford University, CA USA

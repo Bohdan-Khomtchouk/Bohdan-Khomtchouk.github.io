@@ -1,0 +1,103 @@
+---
+title: "People"
+---
+<!-- note the extra spacings and formatting below for the caption and link to render properly -->
+
+![](people_photos/Gozani_photo.jpg){width=150px}
+
+[Or Gozani](https://med.stanford.edu/profiles/or-gozani), Professor
+
+
+
+![](people_photos/Kami_Bhat.jpg){width=150px}
+
+[Kami Bhat](https://profiles.stanford.edu/192526), Postdoctoral Researcher
+
+
+
+![](people_photos/John_Coan.jpg){width=150px}
+
+[John Coan](https://stanfordwho.stanford.edu/SWApp/lookup?search=Coan,John), Graduate Student
+
+
+
+![](people_photos/Robert_Farr.jpg){width=150px}
+
+[Robert Farr](https://stanfordwho.stanford.edu/SWApp/lookup?search=Farr,%20Robert), Technician
+
+![](people_photos/Joel_Francis.jpg){width=150px}
+
+[Joel William Francis](https://stanfordwho.stanford.edu/SWApp/lookup?search=Francis,%20Joel), Graduate Student
+
+
+
+![](people_photos/Dylan_Husmann.jpg){width=150px}
+
+[Dylan Husmann](https://stanfordwho.stanford.edu/SWApp/lookup?search=Husmann,%20Dylan), Graduate Student
+
+
+
+![](people_photos/Bohdan_Khomtchouk.png){width=150px}
+
+[Bohdan Khomtchouk](https://profiles.stanford.edu/bohdan-khomtchouk), Postdoctoral Researcher
+
+
+
+![](people_photos/Tie_Mei_Li.jpg){width=150px}
+
+[Tie-Mei Li](https://stanfordwho.stanford.edu/SWApp/lookup?search=Li,Tiemei), Joint Postdoctoral Researcher with Chua Lab
+
+
+
+![](people_photos/Shuo_Liu.jpg){width=150px}
+
+[Shuo Liu](https://stanfordwho.stanford.edu/SWApp/lookup?search=Liu,Shuo), Postdoctoral Researcher
+
+
+
+![](people_photos/Deepa_Sengupta.jpg){width=150px}
+
+[Deepa Sengupta](https://stanfordwho.stanford.edu/SWApp/lookup?search=Sengupta,Deepa), Postdoctoral Researcher
+
+
+
+
+![](people_photos/Zhentian_Wang.jpg){width=150px}
+
+[Zhentian Wang](https://stanfordwho.stanford.edu/SWApp/lookup?search=Wang,Zhentian), Postdoctoral Researcher
+
+
+
+
+![](people_photos/Alex_Wilkinson.jpg){width=150px}
+
+[Alex Wilkinson](https://stanfordwho.stanford.edu/SWApp/lookup?search=Wilkinson,%20Alex), Postdoctoral Researcher
+
+
+
+
+![](people_photos/Gang_Yuan.jpg){width=150px}
+
+[Gang Yuan](https://stanfordwho.stanford.edu/SWApp/lookup?search=Yuan,Gang), Postdoctoral Researcher
+
+
+
+
+![](people_photos/Mohamad_Zoabi.jpg){width=150px}
+
+[Mohamad Zoabi](https://stanfordwho.stanford.edu/SWApp/lookup?search=Zoabi,Mohamad), Postdoctoral Researcher
+
+
+
+
+![](people_photos/Frodo.png){width=150px}
+
+Frodo, lab dog
+
+
+<!-- note the extra spaces below for the caption to render properly -->
+<center>
+
+![Lab outing](figures/group_lab_photo_1.jpg)
+
+</center>

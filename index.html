@@ -1,658 +1,256 @@
 <!DOCTYPE html>
-<html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bohdan Khomtchouk</title>
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css"/>
-<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-<link href="FontAwesome/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/academicons.css"/>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Bohdan Khomtchouk, Ph.D.</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="site_libs/font-awesome-4.5.0/css/academicons.min.css"/>
+<div><img src="hex_pic.jpg" width="100%" align="center"><p align="right" style="font-size:24px"></p></div>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 58px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
 </head>
+
 <body>
 
-<!-- nav bar -->
-<div class="navbar navbar-inverse navbar-fixed-top">
-	<div class="navbar-inner">
-		<div class="container">
-			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="brand" href="#">Bohdan Khomtchouk</a>
-			<div class="nav-collapse collapse">
-				<ul class="nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#publications">Publications</a></li>
-					<li><a href="#packages">Packages</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#conferences">Conferences</a></li>
-					<li><a href="#awards">Awards</a></li>
-					<li><a href="#alumni">Alumni</a></li>
-					<li><a href="#philosophy">Philosophy</a></li>
-					<li><a href="#press">Press</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div><!--/.nav-collapse -->
-		</div>
-	</div>
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Bohdan Khomtchouk, Ph.D.</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="research.html">
+    <span class="fa fa-sitemap"></span>
+    About Me
+  </a>
+</li>
+<li>
+  <a href="publications.html">
+    <span class="fa fa-book"></span>
+    Publications
+  </a>
+</li>
+<li>
+  <a href="miscellaneous.html">
+    <span class="fa fa-rss"></span>
+    Miscellaneous
+  </a>
+</li>
+<li>
+  <a href="contact.html">
+    <span class="fa fa-envelope-o"></span>
+    Contact
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">&#x1F47D;<b>Hi, I'm Bohdan!</b></h1>
+
 </div>
 
-<div class="container" id="main">
-	<div class="row">
 
-		<!-- right part of page -->
-		<div class="hidden-phone">
+<div id="this-is-the-website-of-our-r-community" class="section level2" align="justify">
+<h2>I spend my time making scalable and secure software engineering infrastructure to power the world's genomics data, with an emphasis on UX design and robust performance at high traffic.  In general, I'm (kind of) obsessed with two things: next-generation tech stacks and futuristic infra for bioinformatics and computational biology applications.</h2>
+</div>
 
-			<div class="span4">
-                <br>
-                <br>
-                <br>
-				<img style="float: right;"  src="img/bohdan.JPG">
 
-			</div>
-		</div>
 
-		<!-- left part of page -->
-		<div class="span8">
-            <br>
-            <br>
-			<h1 style="color: #445555;">Bohdan Khomtchouk, Ph.D.</h1>
-			<p class="lead">Postdoctoral Research Scholar at Stanford University</p>
-			<blockquote>
-				<p style="font-size: 11pt">
-					Bioinformatician and computational biologist with a postdoctoral research appointment in the Department of Biology at Stanford University.
-				</p>
-				<!--
-					<small>Josh Wills of <a href="http://www.cloudera.com/content/cloudera/en/home.html">Cloudera</a></small>
-				-->
-			</blockquote>
-			<div id="about">
-				<h2>About Me</h2>
-				<p>
-					My official Stanford University profile can be accessed <a href="https://profiles.stanford.edu/bohdan-khomtchouk">here</a>.
-				</p>
 
-				<p>
-					I am a data science postdoctoral fellow working in the field of computational epigenetics in the laboratory
-					of <a href="https://web.stanford.edu/group/gozani/cgi-bin/gozanilab/">Prof. Dr. Or Gozani M.D., Ph.D.</a> at Stanford University in Stanford, CA USA.  I am also the founder and organizer of <a href="https://biolisp.github.io/">Biolisp</a>, <a href="https://www.meetup.com/Stanford-Biolisp-Meetup/">Stanford Biolisp Meetup</a>, <a href="https://www.meetup.com/Stanford-Python-Meetup/">pyStanford (Stanford Python Meetup)</a>, and <a href="https://www.meetup.com/Stanford-R-Meetup/">StanfordR (Stanford R Meetup)</a>.  As an active member of the Lisp community, I recently gave an <a href="http://med.miami.edu/news/miller-school-researchers-help-push-the-limits-of-programming-languages-in-">invited keynote</a> at the European Lisp Symposium in Brussels, Belgium and an <a href="https://www.meetup.com/balisp/events/243000254/">invited talk</a> at Hacker Dojo in Santa Clara, California.  As a Lisp hacker, my favorite large-scale machine learning project is <a href="https://github.com/Bohdan-Khomtchouk/Biochat">Biochat</a>.  As a Pythonista, my favorite large-scale AI project is <a href="https://github.com/Bohdan-Khomtchouk/biosemble">biosemble</a>.  I am also a long-time R programmer, over the years having developed everything from Bioconductor (e.g., <a href="https://bioconductor.org/packages/devel/geneXtendeR/">geneXtendeR</a>) and CRAN (e.g., <a href="https://cran.r-project.org/web/packages/happybiRthday/index.html">happybiRthday</a>) packages to Shiny web frameworks (e.g., <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0176334">shinyheatmap</a> and <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1260-x">MicroScope</a>) and even GUI binaries (e.g., <a href="https://scfbm.biomedcentral.com/articles/10.1186/s13029-014-0030-2">HeatmapGenerator</a>).  Occasionally, I moonlight as a C hacker (e.g., <a href="https://github.com/Bohdan-Khomtchouk/Triglav">Triglav</a> and <a href="https://github.com/Bohdan-Khomtchouk/SUPERmerge">SUPERmerge</a> -- which, now that I think about it, constituted roughly 25% of my <a href="http://scholarlyrepository.miami.edu/oa_dissertations/1916/">PhD thesis</a>, so I should probably re-examine my word choice here :-) ).  Finally, on rainy afternoons, I am an avid Shell enthusiast (e.g., <a href="https://github.com/Bohdan-Khomtchouk/NGStoolkit">NGStoolkit</a>) and JavaScript fan (e.g., <a href="https://github.com/Bohdan-Khomtchouk/fastheatmap">fastheatmap</a>).  As they say, "I don't always code JavaScript, but when I do, it's to create the world's fastest interactive heatmap software."  Just kidding, nobody ever says that, but fastheatmap really is the world's fastest interactive heatmap software -- and it's written predominantly in JavaScript.
-					For fun, I like to read machine learning textbooks and <a href="https://github.com/Bohdan-Khomtchouk/book-errata-community-service">compose a detailed list of errata</a>.
-					</p>
+</div>
 
-					<p>
-					My published works to-date include a <a href="http://www.nature.com/mp/journal/vaop/ncurrent/full/mp2016131a.html">Molecular Psychiatry paper</a>, <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0176334">PLoS One paper</a>,
-					<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1260-x">BMC Bioinformatics paper</a>, <a href="http://bib.oxfordjournals.org/content/early/2016/12/31/bib.bbw130.short?rss=1">Briefings in Bioinformatics paper</a>, <a href="http://scfbm.biomedcentral.com/articles/10.1186/s13029-014-0030-2">Source Code for Biology and Medicine paper</a>, <a href="http://jaha.ahajournals.org/content/5/12/e004076">Journal of the American Heart Association paper</a>, <a href="https://bioconductor.org/packages/geneXtendeR/">R/Bioconductor package</a>, and <a href="https://pypi.python.org/pypi/FTPwalker/0.1">Python/PyPI package</a>.
-					I have also published an <a href="https://www.crcpress.com/Survival-Guide-to-Organic-Chemistry-Bridging-the-Gap-from-General-Chemistry/McMahon-Khomtchouk-Wahlestedt/p/book/9781498777070">organic chemistry textbook</a> at CRC Press (Taylor & Francis).
-					In addition, I have released several preprints, which are currently under peer-review.  These preprints span the fields of mathematical genetics and evolutionary biology (<a href="http://dx.doi.org/10.1101/076679">here</a>, <a href="http://dx.doi.org/10.1101/066381">here</a>,
-					and <a href="http://arxiv.org/abs/1402.4095">here</a>), databases and search engines (<a href="http://dx.doi.org/10.1101/069575">here</a>), and nonlinear physics (<a href="https://arxiv.org/abs/1603.03153">here</a>).
-					As a bioinformatics software engineer and biostatistician, I am a big fan of the C and R programming languages (respectively), especially when I can synergize them together to do some low-level statistical programming (see <a href="https://github.com/Bohdan-Khomtchouk/geneXtendeR">geneXtendeR</a>).  Overall, I enjoy writing extremely efficient implementations of various algorithms & data structures for solving computationally complex biological problems.  I am always looking for yet another way to shave off yet another millisecond of runtime performance, even if it may not be the most practical use of my time!
-				</p>
+<script>
 
-				<p>
-					Previously, I was a genetics doctoral candidate funded by the <a href="https://ndseg.asee.org">National Defense Science & Engineering Graduate (NDSEG) Fellowship</a>, working in the laboratory
-					of <a href="https://scholar.google.com/citations?user=sPhaqa0AAAAJ&hl=en">Prof. Dr. Claes Wahlestedt M.D., Ph.D.</a> at the University of Miami Miller School of Medicine in Miami, FL USA.
-				    I graduated with a Ph.D. in <a href="http://biomed.med.miami.edu/graduate-programs/human-genetics-and-genomics">Computational Human Genetics and Genomics</a> and my dissertation title is:
-					<a href="http://scholarlyrepository.miami.edu/oa_dissertations/1916/"><i>Histone modification ChIP-seq algorithm engineering and high performance bioinformatics graphics and analysis software for computational epigenetics</i></a>.  My thesis committee chair was <a href="http://ccs.miami.edu/team_member/nicholas-tsinoremas-phd/">Prof. Dr. Nicholas Tsinoremas Ph.D.</a> and my thesis committee members were:
-					<a href="http://ccs.miami.edu/?p=1259">Prof. Dr. Mitsunori Ogihara Ph.D.</a>, <a href="http://uhealthsystem.com/researchers/profile/95468">Prof. Dr. Eden Martin Ph.D.</a>, and
-					<a href="http://centeronaging.med.miami.edu/pharvey">Prof. Dr. Phil Harvey Ph.D.</a>.
-					My biophysics advisor was <a href="https://scholar.google.com/citations?user=2Tl77HMAAAAJ&hl=en">Prof. Dr. Wolfgang Nonner M.D.</a> and
-					my bioinformatics advisor was <a href="http://www.pubfacts.com/author/Derek+Van+Booven">Derek Van Booven</a>, Senior Bioinformatics Analyst at the <a href="http://hihg.med.miami.edu">John P. Hussman Institute for Human Genomics</a>.
-					My academic appointments were in the <a href="http://psychiatry.med.miami.edu/research/center-for-therapeutic-innovation">Center for Therapeutic Innovation</a> and
-					the <a href="http://psychiatry.med.miami.edu">Department of Psychiatry and Behavioral Sciences</a>.
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
 
-				</p>
 
-				<p>
-					Prior to graduate school, I was a triple-major <i>summa cum laude</i> (B.Sc. Mathematics, B.Sc. Physics, B.Sc. Molecular Biology and Biochemistry) at <a href="http://www.ben.edu/college-of-science/index.cfm">Benedictine University</a> in Lisle, IL USA.  I was also a visiting researcher at Ecole Polytechnique Fédérale de Lausanne (EPFL) -- see <a href="http://www.ben.edu/news/2012/students-medical-mystery-tour.cfm">press release</a>, <a href="https://user-images.githubusercontent.com/9893806/31857945-22463162-b6a0-11e7-82c9-1cdbaf3b26e4.jpg">certificate of completion</a>, and <a href="https://github.com/Bohdan-Khomtchouk/jarvis/files/1404583/EPFL_acceptance_letter.pdf">acceptance letter</a>.  Finally, I was an inventor at the Einstein patent bureau (Swiss Federal Institute of Intellectual Property) -- see <a href="https://github.com/Bohdan-Khomtchouk/jarvis/files/1404585/EPFL_Invention_Disclosure_Form.pdf">official invention disclosure form</a>.
-				</p>
+</script>
 
-			</div>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
-			<h2 id="philosophy">Philosophy</h2>
-				<ul class="unstyled">
-					<li>
-						<strong> Favorite language: </strong> R
-					</li>
-					<li>
-						<strong> Favorite package: </strong> <a href="https://cran.r-project.org/web/packages/data.table/index.html">data.table</a>
-					</li>
-					<li>
-						<strong> Favorite function: </strong> <a href="https://github.com/Rdatatable/data.table/blob/master/src/fread.c">data.table::fread()</a>
-					</li>
-					<li>
-						<strong> Favorite IDE: </strong> <a href="https://www.rstudio.com/products/rstudio/features/">RStudio</a>
-					</li>
-					<li>
-						<strong> Favorite editor: </strong> <a href="https://www.atom.io">Atom</a>
-					</li>
-					<li>
-						<strong> Favorite book: </strong> <a href="https://mitpress.mit.edu/sicp/full-text/book/book.html">SICP</a>
-					</li>
-					<li>
-						<strong> Favorite bioinformatician: </strong> <a href="https://personal.broadinstitute.org/bhaas/">Brian Haas</a>
-					</li>
-					<li>
-						<strong> Favorite programmer: </strong> <a href="https://twitter.com/mattdowle?lang=en">Matt Dowle</a>
-					</li>
-				</ul>
-
-			<span class='quora-content-embed' data-name='What-do-people-think-of-the-TensorFlow-sucks-article/answer/Bohdan-Khomtchouk-Ph-D'>Read <a class='quora-content-link' data-width='559' data-height='250' href='https://www.quora.com/What-do-people-think-of-the-TensorFlow-sucks-article/answer/Bohdan-Khomtchouk-Ph-D' data-type='answer' data-id='60253534' data-key='f512c48b2c82ed491f8fd0dd17e47e73' load-full-answer='True' data-embed='jgngbru'><a href='https://www.quora.com/Bohdan-Khomtchouk-Ph-D'>Bohdan Khomtchouk, Ph.D.</a>&#039;s <a href='/What-do-people-think-of-the-TensorFlow-sucks-article#ans60253534'>answer</a> to <a href='/What-do-people-think-of-the-TensorFlow-sucks-article' ref='canonical'><span class="rendered_qtext">What do people think of the TensorFlow sucks article?</span></a></a> on <a href='https://www.__nousername__.main.quora.com'>Quora</a><script type="text/javascript" src="https://www.quora.com/widgets/content"></script></span>
-
-			<div id="nih">
-			<h2>NIH biosketch</h2>
-			I am a bioinformatician, computational geneticist, and (epi-)genome researcher.  I work across a broad array of next-generation sequencing data, including RNA-seq, small RNA-seq, methyl-seq, ATAC-seq, mass spectrometry, and transcription factor and histone modification ChIP-seq.  My primary area of training and expertise is in the development of novel algorithms and computational pipelines for histone modification ChIP-seq data analysis -- the focus of my PhD dissertation.  As part of my thesis, I made several important basic science contributions to the understanding of epigenetic mechanisms in alcohol addiction and cardiac ischemia, as well as several critical computational breakthroughs in the area of scientific visualization.  In addition, I launched several large-scale software engineering products such as a high performance graphics engine for rendering ultra fast low memory interactive biological heatmaps.  I have also built several large-scale mathematical and statistical big data models for understanding the dynamics of codon usage bias across taxa in the evolutionary tree of life.  Currently, my research involves understanding the data science behind aging-related diseases as well as creating artificial intelligence and machine learning software to organize the world's biological information at a massive scale -- working at the interdisciplinary interface of big data, integrative bioinformatics, multi-omics, and statistical learning.
-			</div>
-
-			<div id="publications">
-				<h2>Publications</h2>
-				<h3>Books</h3>
-				<p>
-				<strong>
-					Survival Guide to Organic Chemistry: Bridging the Gap from General Chemistry
-				</strong>
-					(<a href="https://www.crcpress.com/Survival-Guide-to-Organic-Chemistry-Bridging-the-Gap-from-General-Chemistry/McMahon-Khomtchouk-Wahlestedt/p/book/9781498777070">CRC Press (Taylor & Francis), 2016, pp. 1-674</a>)<br />
-				<small>
-					Patrick E. McMahon, Bohdan B. Khomtchouk, Claes Wahlestedt
-				</small>
-				</p>
-
-				<h3>Articles</h3>
-				<p>
-				<strong>
-					shinyheatmap: Ultra fast low memory heatmap web interface for big data genomics
-				</strong>
-					(<a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0176334">PLoS One, 2017, 12(5):e0176334. doi: 10.1371/journal.pone.0176334.</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, James R. Hennessy, Claes Wahlestedt
-				</small>
-				</p>
-				<strong>
-					MicroScope: ChIP-seq and RNA-seq software analysis suite for gene expression heatmaps
-				</strong>
-					(<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1260-x">BMC Bioinformatics, 2016, 17:390, pp. 1-9</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, James R. Hennessy, Claes Wahlestedt
-				</small>
-				</p>
-				<strong>
-					How the Strengths of Lisp-Family Languages Facilitate Building Complex and Flexible Bioinformatics Applications
-				</strong>
-				(<a href="http://bib.oxfordjournals.org/content/early/2016/12/31/bib.bbw130.short?rss=1">Briefings in Bioinformatics, 2016, doi: 10.1093/bib/bbw130, pp. 1-7</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, Edmund Weitz, Peter D. Karp, Claes Wahlestedt
-				</small>
-				</p>
-				<strong>
-					Dependence-induced increase of alcohol self-administration and compulsive drinking mediated by the histone methyltransferase PRDM2
-				</strong>
-					(<a href="http://www.nature.com/mp/journal/vaop/ncurrent/full/mp2016131a.html">Molecular Psychiatry, 2016, doi: 10.1038/mp.2016.131, pp. 1-13</a>)<br />
-				<small>
-					Estelle Barbier, Andrea Johnstone, Bohdan Khomtchouk, Jenica Tapocik, Caleb Pitcairn, Faazal Rehman, Eric Augier, Abbey Borich, Jesse Schank, Christopher Rienas, Derek Van Booven, Sun Hui, Daniel Natt, Claes Wahlestedt, Markus Heilig
-				</small>
-				</p>
-				<strong>
-					Ischemic preconditioning confers epigenetic repression of Mtor and induction of autophagy through G9a-dependent H3K9 di-methylation
-				</strong>
-					(<a href="https://doi.org/10.1161/JAHA.116.004076">Journal of the American Heart Association, 2016, 5:12, pp. 1-27</a>)<br />
-				<small>
-					Olof Gidl&ouml;f, Andrea Johnstone, Kerstin Bader, Bohdan Khomtchouk, Jiaqi O'Reilly, Derek Van Booven, Claes Wahlestedt, Bernhard Metzler, David Erlinge
-				</small>
-				</p>
-				<strong>
-					HeatmapGenerator: high performance RNAseq and microarray visualization software suite to examine differential gene expression levels using an R and C++ hybrid computational pipeline
-				</strong>
-					(<a href="http://scfbm.biomedcentral.com/articles/10.1186/s13029-014-0030-2">Source Code for Biology and Medicine, 2014, 9:30, pp. 1-6</a>)<br />
-				<small>
-					Bohdan Khomtchouk, Derek Van Booven, Claes Wahlestedt
-				</small>
-				</p>
-
-
-				<h3>Dissertation</h3>
-				<p>
-				<strong>
-					Histone Modification ChIP-seq Algorithm Engineering and High Performance Bioinformatics Graphics and Analysis Software for Computational Epigenetics
-				</strong>
-					(<a href="http://scholarlyrepository.miami.edu/oa_dissertations/1916/">Open Access Dissertations, 2017, pp. 1-106</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk
-				</small>
-				</p>
-
-
-				<h3>Preprints</h3>
-				<p>
-				<strong>
-					A global perspective of codon usage
-				</strong>
-					(<a href="http://dx.doi.org/10.1101/076679">bioRxiv (Cold Spring Harbor Laboratory), 2016, pp. 1-9</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, Claes Wahlestedt, Wolfgang Nonner
-				</small>
-				</p>
-				<strong>
-					Codon usage is a stochastic process across genetic codes of the kingdoms of life
-				</strong>
-					(<a href="http://dx.doi.org/10.1101/066381">bioRxiv (Cold Spring Harbor Laboratory), 2016, pp. 1-18</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, Claes Wahlestedt, Wolfgang Nonner
-				</small>
-				</p>
-				<strong>
-					SUPERmerge: ChIP-seq coverage island analysis algorithm for broad histone marks
-				</strong>
-					(<a href="http://biorxiv.org/content/early/2017/03/29/121897">bioRxiv (Cold Spring Harbor Laboratory), 2017, pp. 1-12</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, Derek Van Booven, Claes Wahlestedt
-				</small>
-				</p>
-				<strong>
-					PubData: search engine for bioinformatics databases worldwide
-				</strong>
-					(<a href="http://dx.doi.org/10.1101/069575">bioRxiv (Cold Spring Harbor Laboratory), 2016, pp. 1-8</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, Kasra A. Vand, Thor Wahlestedt, Kelly Khomtchouk, Mohammed K. Sayed, Claes Wahlestedt
-				</small>
-				</p>
-				<strong>
-					geneXtendeR: optimized functional annotation of ChIP-seq data
-				</strong>
-					(<a href="http://dx.doi.org/10.1101/082347">bioRxiv (Cold Spring Harbor Laboratory), 2017, pp. 1-7</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, Derek Van Booven, Claes Wahlestedt
-				</small>
-				</p>
-				<strong>
-					Zipf's law emerges asymptotically during phase transitions in communicative systems
-				</strong>
-					(<a href="http://arxiv.org/abs/1603.03153">arXiv (Cornell University Library), 2016, pp. 1-5</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk, Claes Wahlestedt
-				</small>
-				</p>
-				<strong>
-					The mathematics of the genetic code reveal that frequency degeneracy leads to exponential scaling in the DNA codon distribution of Homo sapiens
-				</strong>
-					(<a href="http://arxiv.org/abs/1402.4095">arXiv (Cornell University Library), 2014, pp. 1-8</a>)<br />
-				<small>
-					Bohdan B. Khomtchouk
-				</small>
-
-
-				<h3>Abstracts</h3>
-				<strong>
-					Epigenetic enzymes as a novel class of targets for disease-modifying pharmacotherapies in alcohol addiction
-				</strong>
-					(<a href="http://www.sciencedirect.com/science/article/pii/S0741832917305505">Alcohol, 2017, 60:209</a>)<br />
-				<small>
-					Estelle Barbier, Andrea Johnstone, Bohdan Khomtchouk, Jenica Tapocik, Caleb Pitcairn, Faazal Rehman, Eric Augier, Abbey Borich, Jesse Schank, Christopher Rienas, Derek Van Booven, Sun Hui, Daniel Natt, Claes Wahlestedt, Markus Heilig
-				</small>
-				</p>
-
-
-				<div id="packages">
-
-				<h2>Software packages</h2>
-
-				<h4>
-				geneXtendeR
-					<small>
-						<a href="https://bioconductor.org/packages/geneXtendeR/">(Bioconductor)</a>
-					</small>
-					<small>
-						<a href="https://github.com/Bohdan-Khomtchouk/geneXtendeR">(GitHub)</a>
-					</small>
-				</h4>
-				<p>
-					geneXtendeR is an R/Bioconductor package for histone modification ChIP-seq analysis. It is designed to optimally annotate a histone
-					modification ChIP-seq peak input file with functionally important genomic features (e.g., genes associated with peaks)
-					based on optimization calculations. geneXtendeR optimally extends the boundaries of every gene in a genome by some genomic
-					distance (in DNA base pairs) for the purpose of flexibly incorporating cis-regulatory elements, such as enhancers and
-					promoters, as well as downstream elements that are important to the function of the gene (relative to an epigenetic histone
-					modification ChIP-seq dataset). geneXtendeR computes optimal gene extensions tailored to the broadness of the specific epigenetic
-					mark (e.g., H3K9me1, H3K27me3), as determined by a user-supplied ChIP-seq peak input file. As such, geneXtendeR maximizes the
-					signal-to-noise ratio of locating genes closest to and directly under peaks. By performing a computational expansion of this nature,
-					ChIP-seq reads that would initially not map strictly to a specific gene can now be optimally mapped to the regulatory regions of the gene,
-					thereby implicating the gene as a potential candidate, and thereby making the ChIP-seq experiment more successful. Such an approach becomes
-					particularly important when working with epigenetic histone modifications that have inherently broad peaks.
-				</p>
-			</div>
-
-			<h4>
-			happybiRthday
-				<small>
-					<a href="https://cran.r-project.org/web/packages/happybiRthday/index.html">(CRAN)</a>
-				</small>
-				<small>
-					<a href="https://github.com/Bohdan-Khomtchouk/happybiRthday">(GitHub)</a>
-				</small>
-			</h4>
-			<p>
-				happybiRthday is an R package hosted on CRAN to calculate upcoming birthday dates of Github repos.  Software creation is a pretty big deal! A repository's initial commit date can be thought of as its birthday. Next time, drop in and wish a developer (any Github username) a happy birthday of their repo(s). Or maybe just toast to the upcoming anniversary of your own software! The software life cycle is too short not to celebrate!
-			</p>
-		</div>
-
-				<h4>
-				FTPwalker
-					<small>
-					<a href="https://badge.fury.io/py/FTPwalker"><img src="https://badge.fury.io/py/FTPwalker.svg" alt="PyPI version" height="18"></a>
-					</small>
-				</h4>
-				<p>
-					FTPwalker is a network programming Python package for optimally traversing extremely large FTP directory trees.
-					It constitutes the algorithmic heart of the <a href="https://github.com/Bohdan-Khomtchouk/PubData">PubData search engine</a>.
-					FTPwalker creates a dictionary formatted as a JSON file in the user’s home directory containing all the full paths as keys
-					and the respective filenames as values.  FTPwalker is designed with speed in mind by utilizing state-of-the-art high performance
-					parallelism and concurrency algorithms to traverse huge directory trees through a remote network via an FTP connection.  The resultant hash table (i.e., dictionary) supports fast
-					lookup for any file in any biological database (or any remote database with an extremely large file system).
-				</p>
-			</div>
-
-
-			<div id="projects">
-				<h2>Software projects (in progress)</h2>
-
-				<h4>
-				biosemble
-					<small>
-						<a href="https://github.com/Bohdan-Khomtchouk/biosemble">(GitHub)</a>
-					</small>
-				</h4>
-				<p>
-					biosemble is a Python natural language processing (NLP) software program written in highly-tuned Cython and optimized Python for assembling biological wordnets from structured and unstructured biological text. Structured text includes resources like biologically relevant dictionaries and encyclopedias, while unstructured text includes biologically relevant textbooks.
-				</p>
-
-				<h4>
-				Biochat
-					<small>
-						<a href="https://github.com/Bohdan-Khomtchouk/Biochat">(GitHub)</a>
-					</small>
-				</h4>
-				<p>
-					Biochat aims at providing an interactive workbench for biological databases (e.g., Gene Expression Omnibus (GEO), miRBase, TCGA, Human Epigenome Atlas, etc.) to learn to communicate with each other by matching and pairing data records across the biological data-verse (terabytes of publicly available data).  Biochat's mission is to fundamentally transform how people perform biological data science by unifying it, going from thousands of scattered database silos (that act as data storage repositories) to 1 intelligent centralized framework (that acts as a living breathing AI to integrate large-scale data), thereby opening doors to more biological breakthroughs based on existing publicly available data.  Biochat is written in Common Lisp and operates based on efficient categorization and pairing of similar items (e.g., words that describe data records) into groups. It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."
-
-					We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally). In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are dozens of bioinformatics databases out there... see how we've tackled this problem with PubData). So how, for example, is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)? Through metadata, of course! However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them. Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin! Hence the name: Biochat.
-
-					Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI). Right now, we are barely scratching the surface with NLP. Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).
-				</p>
-
-				<h4>
-				PubData
-					<small>
-						<a href="https://github.com/Bohdan-Khomtchouk/PubData">(GitHub)</a>
-					</small>
-				</h4>
-				<p>
-					PubData is a search engine and file retrieval system for all bioinformatics databases worldwide. PubData searches biomedical FTP data in a user-friendly fashion similar to how PubMed searches biomedical literature. PubData is hosted as both a web application and a standalone graphical user interface (GUI) software program, while PubMed is hosted as an online web server. PubData is built on novel network programming and natural language processing algorithms that can patch into the FTP servers of any user-specified bioinformatics database, query its contents, and retrieve files for download.  PubData is written in the Python programming language (specifically, Django and PyQt4). PubData can remotely search, access, view, and retrieve files from the deeply nested directory trees of any major bioinformatics database via a local computer network. By assembling all major bioinformatics databases under the roof of one software program, PubData allows the user to avoid the unnecessary hassle and non-standardized complexities inherent to accessing databases one-by-one using an Internet browser. More importantly, it allows a user to query multiple databases simultaneously for user-specified keywords (e.g., human, cancer, transcriptome). As such, PubData allows researchers to search, access, view, and download files from the FTP servers of any major bioinformatics database directly from one centralized location. By using only a GUI or web application, PubData allows the user to simultaneously surf multiple bioinformatics FTP servers directly from the comfort of their local computer.
-				</p>
-
-				<h4>
-				SUPERmerge
-					<small>
-						<a href="https://github.com/Bohdan-Khomtchouk/SUPERmerge">(GitHub)</a>
-					</small>
-				</h4>
-
-				<p>
-				SUPERmerge is a ChIP-seq read pileup analysis and annotation algorithm for investigating alignment (BAM) files of diffuse histone modification ChIP-seq datasets with broad chromatin domains at a single base pair resolution level. SUPERmerge allows flexible regulation of a variety of read pileup parameters, thereby revealing how read islands aggregate into areas of coverage across the genome and what annotation features they map to within individual biological replicates. SUPERmerge is especially useful for investigating low sample size ChIP-seq experiments in which epigenetic histone modifications (e.g., H3K9me1, H3K27me3) result in inherently broad peaks with a diffuse range of signal enrichment spanning multiple consecutive genomic loci and annotated features.
-				</p>
-
-
-			</div>
-
-
-
-			<div id="conferences">
-				<h2>Conferences</h2>
-
-				<h4>
-				Bay Area R useR Group (R Programming Language), Intuit Building 9 – Invention and Innovation, Mountain View, CA --- Fall 2017
-				</h4>
-
-				<p>
-					<a href="https://www.meetup.com/R-Users/events/244700158/">Lightning talk</a>: "Outrageously fast interactive heatmap graphics using R, JavaScript, and Plotly"
-				</p>
-
-				<h4>
-				Bay Area Lisp & Scheme Users Group, Hacker Dojo, Santa Clara, CA --- Fall 2017
-				</h4>
-
-				<p>
-					<a href="https://www.meetup.com/balisp/events/243000254/">Invited talk</a>: "Biochat: organizing the world's biological information through AI"
-				</p>
-
-				<h4>
-				Great Lakes Bioinformatics (GLBIO) Conference, University of Illinois at Chicago, Chicago, IL --- Spring 2017
-				</h4>
-
-				<p>
-					<a href="https://www.iscb.org/glbio2017-program/glbio2017-accepted-papers-abstracts">Oral presentation</a>: "geneXtendeR: R/Bioconductor package for functional annotation of histone modification ChIP-seq data in a 3D genome world"
-				</p>
-
-				<h4>
-				Fourth International Congress on Alcoholism and Stress: A Framework for Future Treatment Strategies, Volterra, Italy --- Spring 2017
-				</h4>
-
-				<p>
-					<a href="http://www.sciencedirect.com/science/article/pii/S0741832917305505">Meeting abstract</a>: "Epigenetic enzymes as a novel class of targets for disease-modifying pharmacotherapies in alcohol addiction"
-				</p>
-
-				<h4>
-				10th European Lisp Symposium, Brussels, Belgium ---  Spring 2017
-				</h4>
-
-				<p>
-					<a href="http://www.european-lisp-symposium.org/editions/2017/">Invited keynote</a>: "How the Strengths of Lisp-Family Languages Facilitate Building Complex and Flexible Bioinformatics Applications"
-				</p>
-
-				<h4>
-				ISBRA ESBRA World Congress on Alcohol and Alcoholism, Berlin, Germany ---  Fall 2016
-				</h4>
-
-				<p>
-					Poster presentation: "Dependence-induced increase of alcohol self-administration and compulsive drinking mediated by the histone methyltransferase PRDM2"
-				</p>
-
-				<h4>
-				Miami Winter Symposium, Hyatt Regency Miami, Miami, FL ---  Winter 2016
-				</h4>
-
-				<p>
-					Poster presentation: "Python and Apache Spark bioinformatics software program that sensitively detects the presence of snoRNAs and miRNAs within NGS samples"
-				</p>
-
-				<h4>
-				Miami Winter Symposium, Hyatt Regency Miami, Miami, FL ---  Winter 2015
-				</h4>
-
-				<p>
-					Poster presentation: "Personalized computational epigenomics pipeline to investigate complex brain tissue using ChIP-seq"
-				</p>
-
-
-
-			</div>
-
-			<div id="workshops">
-				<h2>Workshops</h2>
-
-				<h4>
-				Big Data with R, rstudio::conf 2018 – Manchester Grand Hyatt, San Diego, CA --- Winter 2018
-				</h4>
-
-				<p>
-					<a href="https://community.rstudio.com/t/information-for-the-big-data-with-r-class/4093">2-day workshop</a>: Learn how to use R with Hive, SQL Server, Oracle and other scalable external data sources along with Big Data clusters in this two-day workshop. We will cover how to connect, retrieve schema information, upload data, and explore data outside of R. For databases, we will focus on the dplyr, DBI and odbc packages. These packages enable us to use the same dplyr verbs inside R but are translated and sent as SQL queries. For Big Data clusters, we will also learn how to use the sparklyr package to run models inside Spark and return the results to R. We will review recommendations for connection settings, security best practices and deployment options. Throughout the workshop, we will take advantage of the new data connections available with the RStudio IDE.
-				</p>
-
-			</div>
-
-
-			<div id="service">
-				<h2>Community service</h2>
-
-				<h4>
-				StanfordR (Stanford R Group)
-					<small>
-						<a href="http://stanfordr.com/">(StanfordR)</a>
-					</small>
-				</h4>
-
-				<h4>
-				pyStanford (Stanford Python Meetup)
-					<small>
-						<a href="https://www.meetup.com/Stanford-Python-Meetup/">(pyStanford)</a>
-					</small>
-				</h4>
-
-				<h4>
-				Stanford Biolisp (Stanford Common Lisp, Scheme, and Clojure Meetup)
-					<small>
-						<a href="http://biolisp.org">(Biolisp)</a>
-					</small>
-				</h4>
-
-				<h4>
-				book-errata-community-service
-					<small>
-						<a href="https://github.com/Bohdan-Khomtchouk/book-errata-community-service">(GitHub)</a>
-					</small>
-				</h4>
-
-
-			</div>
-
-
-			<div id="awards">
-				<h2>Awards</h2>
-
-				<h4>
-				NIH/NIA Stanford Training Program in Aging Research (T32 AG0047126), National Institute on Aging of the National Institutes of Health ---  2017-2018
-				</h4>
-
-				<h4>
-				National Defense Science & Engineering Graduate Fellowship (32 CFR 168a), Department of Defense (Army Research Office, Biosciences Division) ---  2014-2017
-				</h4>
-
-				<h4>
-				UM Graduate Fellowship, University of Miami --- Fall 2013
-				</h4>
-
-				<h4>
-				Who's Who Among Students in American Universities & Colleges Award, Randall-Reilly Publishing ---  Spring 2016
-				</h4>
-
-			</div>
-
-
-
-			<div id="alumni">
-				<h2>Undergraduate Alumni</h2>
-
-				<h4>
-				James R. Hennessy, B.Sc. ---  Current position: Data Analyst I, The Genome Technology Center, Stanford University School of Medicine
-				</h4>
-				<p>
-					<ul> Years mentored: 2015-2017 </ul>
-					<ul> Role: undergraduate student researcher (University of Miami, Department of Mathematics) </ul>
-					<ul> Achievements: 2nd author of <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1260-x">MicroScope</a> and <a href="http://dx.doi.org/10.1101/076463">shinyheatmap</a> </ul>
-				</p>
-
-
-			</div>
-
-			<div id="memberships">
-				<h2>Professional Memberships</h2>
-
-				<h4>
-				American Heart Association (AHA) -- Council on Functional Genomics and Translational Biology
-				</h4>
-
-				<h4>
-				International Society for Computational Biology (ISCB)
-				</h4>
-
-			</div>
-
-
-			<div id="press">
-				<h2>Press</h2>
-
-				<h4>
-				<a href="http://med.miami.edu/news/miller-school-researchers-help-push-the-limits-of-programming-languages-in-">Miller School Researchers Help Push the Limits of Programming Languages in Biology</a>
-				</h4>
-
-				<h4>
-				<a href="http://med.miami.edu/news/miller-school-scientists-publish-organic-chemistry-textbook">Miller School Scientists Publish Organic Chemistry Textbook</a>
-				</h4>
-
-				<h4>
-				<a href="http://med.miami.edu/news/human-genetics-and-genomics-phd-student-awarded-prestigious-fellowship">Human Genetics and Genomics PhD Student Awarded Prestigious Fellowship</a>
-				</h4>
-
-				<h4>
-				<a href="http://med.miami.edu/news/research-team-receives-nih-grant-for-study-of-epigenetic-processes-in-alcoh">Research Team Receives NIH Grant for Study of Epigenetic Processes in Alcoholism</a>
-				</h4>
-
-				<h4>
-				<a href="http://www.huffingtonpost.co.uk/entry/alcohol- dependency- linked- to- lack- of- enzyme- prdm2_uk_57c55697e4b094071b4c947e">Alcoholics Lack Key Enzyme That Helps Control Impulses, Study Finds</a>
-				</h4>
-
-				<h4>
-				<a href="http://www.wired.co.uk/article/alcoholism-rats-dependent-enzyme">Alcoholics lack a key enzyme in the brain - and this creates a 'vicious cycle' of addiction</a>
-				</h4>
-
-				<h4>
-				<a href="https://www.sciencedaily.com/releases/2016/08/160830083707.htm">People with alcohol dependency lack important enzyme</a>
-				</h4>
-
-				<h4>
-				<a href="https://www.thesun.co.uk/living/1695086/blame-your-brain-discovery-of-molecule-that-triggers-alcoholism-raises-hopes-of-a-cure/">ADDICTED TO BOOZE? Blame your brain! Discovery of molecule that 'triggers alcoholism' raises hopes of a cure</a>
-				</h4>
-
-				<h4>
-				<a href="http://reliawire.com/addiction-enzyme/">PRDM2: Could Targeting Addiction Enzyme Help Fight Alcoholism?</a>
-				</h4>
-
-			</div>
-
-
-
-				<h2 id="contact">Contact</h2>
-				<ul class="unstyled">
-					<li>
-						<i class="ai ai-google-scholar-square ai-1x"></i><strong> Google Scholar: </strong> <a href="https://scholar.google.com/citations?user=pa6Zh9QAAAAJ&hl=en">Bohdan Khomtchouk Google Scholar profile</a>
-					</li>
-					<li>
-						<i class="icon-github"></i><strong> GitHub: </strong> <a href="https://github.com/Bohdan-Khomtchouk">github.com/Bohdan-Khomtchouk</a>
-					</li>
-					<li>
-						<i class="icon-linkedin-sign"></i><strong> LinkedIn: </strong> <a href="https://www.linkedin.com/in/bohdankhomtchouk">linkedin.com/in/bohdankhomtchouk</a>
-					</li>
-					<li>
-						<i class="icon-twitter"></i><strong> Twitter: </strong> <a href="https://twitter.com/bohdan9000">twitter.com/bohdan9000</a>
-					</li>
-					<li>
-						<i class="fa fa-quora"></i><strong> Quora: </strong> <a href="https://www.quora.com/profile/Bohdan-Khomtchouk-Ph-D">quora.com/profile/Bohdan-Khomtchouk-Ph-D</a>
-					</li>
-					<li>
-						<i class="icon-envelope"></i><strong> Email: </strong> bohdan@stanford.edu
-					</li>
-				</ul>
-			</div>
-
-		</div>
-
-
-		<title>Font Awesome Icons</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		</head>
-
-
-
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

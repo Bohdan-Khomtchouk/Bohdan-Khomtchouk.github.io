@@ -1,0 +1,23 @@
+---
+title: "Contact"
+---
+
+Or Gozani, M.D., Ph.D. <br />
+Morris Herzstein Professor of Biology <br />
+Department of Biology, Stanford University <br />
+371 Serra Mall, Room 208A <br />
+Stanford, CA 94305-5020 <br /> 
+tel (650) 736-7639 <br />
+fax (650) 725-8309 <br />
+email: ogozani@stanford.edu <br />
+
+---
+<center>
+Lab Location: Gilbert 202-206
+
+
+![](figures/gilbert_map.jpeg){width=150px}
+
+[Searchable Campus Map](https://campus-map.stanford.edu)
+
+</center>

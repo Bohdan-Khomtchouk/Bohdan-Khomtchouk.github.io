@@ -1,0 +1,43 @@
+---
+title: "Protocols"
+---
+
+- [EpiCypher](http://www.epicypher.com), a new company specializing in chromatin and epigenetic reagents
+
+- Buffer Preparation from the Gozani Lab [[Full Text PDF](docs/Buffer-Preparation.pdf)]
+
+- Chromatin Fractionation (Mendez and Stillman, MCB 2001) [[Full Text PDF](docs/Stillman-cell-fractionation.pdf)]
+
+- Chromatin Immunoprecipitation (ChIPs) Protocol from the Farnham Lab [[Full Text PDF](docs/Chromatin-Immunoprecipitation-ChIPs-Protocol-from-Farnham-Lab.pdf)]
+
+- Chromatin Immunoprecipitation Protocol from Current Protocols in Cell Biology Contributed by Oscar Aparicio, Joseph V. Geisberg, and Kevin Struhl [[Full Text PDF](docs/Chromatin-Immunoprecipitation-for-Determining-the-Association-of-Proteins-with-Specific-Genomic-Sequences-In-Vivo.pdf)]
+
+- Chromatin Immunoprecipitation: Protein-protein ChIP from the Gozani Lab [[Full Text PDF](docs/Chromatin-Immunoprecipitation-for-in-vivo-histone-binding-Protocol-shortcutting-methods-from-Rosen-Lab-Farnham-Lab-and-Abcam.pdf)]
+
+- Common Stock Solutions, Buffers, and Media from Current Protocols in Cell Biology [[Full Text PDF](docs/Common-Stock-Solutions-Buffers-and-Media-from-Current-Protocols-in-Cell-Biology.pdf)]
+
+- Expression and Purification of Recombinant Histones and Nucl from Chromatin Protocols [[Full Text PDF](docs/Expression-and-Purification-of-Recombinant-Histones-and-Nucl-from-Chromatin-Protocols.pdf)]
+
+- GST-Tagged Protein Expression and Purification from the Gozani Lab [[Full Text PDF](docs/GST-tagged-protein-Expression-Purification.pdf)]
+
+- Histone extraction protocol from the Gozani Lab [[Full Text PDF](docs/Histone-extraction-protocol.pdf)]
+ 
+- Isolation of Histones and Nucleosome Cores from Mammalian Cells from Current Protocols in Molecular Biology Contributed by Gavin R. Schnitzler [[Full Text PDF](docs/Isolation-of-Histones-and-Nucleosome-Cores-from-Mammalian-Cells-from-Current-Protocols-in-Molecular-Biology-Contributed-by-Gavin-R.-Schnitzler.pdf)]
+
+- Mononucleosome binding assay from the Gozani Lab [[Full Text PDF](docs/Mononucleosome-binding-assay.pdf)]
+
+- Mononucleosome binding of GST-PHD: detection by Western from the Gozani Lab [[Full Text PDF](docs/Mononucleosome-binding-of-GST-PHD-detection-by-Western.pdf)]
+
+- PIP Strip/Array Protocol from the Gozani Lab (Mark Ewalt) [[Full Text PDF](docs/PIP-Strip-Array-Protocol.pdf)]
+
+- Pull-down Assay of Biotin-labeled Histone peptides from the Gozani Lab [[Full Text PDF](docs/Pull-down-Assay-of-Biotin-labeled-Histone-peptides.pdf)]
+
+- Reconstitution of Nucleosome Core Particles from Recombinant Histones and DNA from Methods in Enzymology By Pamela N. Dyer, Raji S. Edayathumangalam, Cindy L. White, Yunhe Bao, Srinivas Chakravarthy, Uma M. Muthurajan, and Karolin Luger [[Full Text PDF](docs/Reconstitution-of-Nucleosome-Core-Particles-from-Recombinant-Histones-and-DNA.pdf)]
+
+- Retroviral generation of stable cell lines from the Gozani Lab [[Full Text PDF](docs/Retroviral-generation-of-stable-cell-lines.pdf)]
+
+- Site Directed Mutagenesis with Stratagene Pfu Turbo [[Full Text PDF](docs/Site-Directed-Mutagenesis-with-Stratagene-Pfu-Turbo.pdf)]
+
+- Nuclear Protein Extraction (Small and large scale ) from the Gozani Lab [[Full Text PDF](docs/Small-scale-Nuclear-Protein-Extraction-without-the-use-of-a-detergent-from-Gozani-Lab-Xiaobing-Shi.pdf)]
+
+- The Inoue Method for Preparation and Transformation of Competent E. Coli: “Ultra-Competent” Cells from Molecular Cloning [[Full Text PDF](docs/The-Inoue-Method-for-Preparation-and-Transformation-of-Competent-E.-Coli-Ultra-Competent-Cells-from-Molecular-Cloning.pdf)]

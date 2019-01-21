@@ -1,0 +1,21 @@
+name: "Bohdan Khomtchouk, Ph.D."
+output_dir: "."
+navbar:
+  title: "Bohdan Khomtchouk, Ph.D."
+  left:
+    - text: "About Me"
+      icon: fa-sitemap
+      href: research.html
+    - text: "Publications"
+      icon: fa-book
+      href: publications.html
+    - text: "Miscellaneous"
+      icon: fa-rss
+      href: miscellaneous.html
+    - text: "Contact"
+      icon: fa-envelope-o
+      href: mailto:bohdan@stanford.edu?cc=khomtchoukmed@gmail.com
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
