@@ -20,7 +20,7 @@ My principle research focus is on creating artificial intelligence and machine l
 
 - Revealing the epigenetic basis behind the cardioprotective effects of ischemic preconditioning (https://doi.org/10.1161/JAHA.116.004076)
 
-- Supporting the Lisp community (https://doi.org/10.1093/bib/bbw130)
+- Supporting the Lisp community (https://doi.org/10.1093/bib/bbw130 and http://med.miami.edu/news/miller-school-researchers-help-push-the-limits-of-programming-languages-in-)
 
 - Writing more heatmap software, can you tell I like heatmaps? (https://doi.org/10.1186/s12859-016-1260-x)
 
