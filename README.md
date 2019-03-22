@@ -1,6 +1,6 @@
-# Gozani Lab Website
+# Bohdan Khomtchouk Website
 
-This is the source code of the Gozani lab website.
+This is the source code of my personal website.
 
 ## To make changes to the website:
 
@@ -11,7 +11,7 @@ This is the source code of the Gozani lab website.
 
 ### Recipe
 
-1) Clone this Github repo to your local computer.  E.g., open Terminal and type in `git clone https://github.com/gozani-lab-website/website.git`
+1) Clone this Github repo to your local computer.  E.g., open Terminal and type in `git clone https://github.com/Bohdan-Khomtchouk/Bohdan-Khomtchouk.github.io.git`
 2) In RStudio, set your working directory to point to the newly created folder on your local computer
 3) Open the `.Rmd` files, make changes, and press `Knit` to finalize them into HTML
 4) To commit these local changes to the website online, type the following into Terminal:
@@ -19,4 +19,3 @@ This is the source code of the Gozani lab website.
 * `git add .`
 * `git commit -m "my commit description"`
 * `git push origin master`
-
