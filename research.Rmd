@@ -2,13 +2,15 @@
 title: "Background"
 ---
 
-I am an American Heart Association (AHA) Postdoctoral Fellow working in the field of computational biology and cardiovascular medicine in the Gozani and Assimes Labs at Stanford University. My postdoctoral research concerns the emerging field of cardioinformatics, working at the nexus of bioinformatics and cardiology. My primary faculty advisor is Or Gozani MD, PhD (Department of Biology, Stanford University), and my secondary faculty mentor is Themistocles Assimes MD, PhD, FRCPC, FAHA (Department of Medicine, Cardiovascular Division, Stanford University School of Medicine). 
+My lab's research program at UChicago concerns the emerging field of cardioinformatics, working at the nexus of bioinformatics and precision cardiology.  My principal research focus is on creating large-scale computational infrastructure and algorithms for powering the world's cardiovascular disease (CVD) data at a massive scale and mining new insights from it -- working at the multidisciplinary interface of healthcare, integrative bioinformatics, multi-omics, natural language processing, and statistical learning.  
 
-My principle research focus is on creating large-scale computational infrastructure and algorithms for powering the world's cardiovascular disease (CVD) data at a massive scale -- working at the multidisciplinary interface of healthcare, integrative bioinformatics, multi-omics, natural language processing, and statistical learning. I am also involved in the NHLBI Trans-Omics for Precision Medicine (TOPMed) Whole Genome Sequencing Program (Atherosclerosis Working Group), which represents the largest subclinical atherosclerosis and coronary artery disease study to date (101,295 human genomes), and I serve as a Research Associate in the VA Palo Alto Healthcare System working on CVD in the Million Veteran Program. I am also a co-founder of Quiltomics (http://www.quiltomics.com) and president of the Stanford R Group (http://www.stanfordr.com/).
+Previously, I was an American Heart Association (AHA) Postdoctoral Fellow working in the field of computational biology and cardiovascular medicine in the Gozani and Assimes Labs at Stanford University. My primary faculty advisor was Or Gozani MD, PhD (Department of Biology, Stanford University), and my secondary faculty mentor was Themistocles Assimes MD, PhD, FRCPC, FAHA (Department of Medicine, Cardiovascular Division, Stanford University School of Medicine). While at Stanford, I was involved in the NHLBI Trans-Omics for Precision Medicine (TOPMed) Whole Genome Sequencing Program (Atherosclerosis Working Group), which represented the largest subclinical atherosclerosis and coronary artery disease study to date (101,295 human genomes), and I served as a Research Associate in the VA Palo Alto Healthcare System working on CVD in the Million Veteran Program. I also started Quiltomics (http://www.quiltomics.com) and the Stanford R Group (http://www.stanfordr.com/).
 
 **Research highlights in my portfolio include:**
 
-- Quilting together the world's cardiovascular disease data (http://www.heartbioportal.com and https://doi.org/10.1101/487744)
+- Quilting together the world's cardiovascular disease data (https://www.heartbioportal.com and https://www.ahajournals.org/doi/10.1161/CIRCGEN.118.002426)
+
+- Computationally discovering and experimentally validating the epigenetic basis and biological mechanism behind the cardioprotective effects of ischemic preconditioning (https://doi.org/10.1161/JAHA.116.004076)
 
 - Writing the world's fastest biological heatmap software (https://doi.org/10.1371/journal.pone.0176334)
 
@@ -16,9 +18,7 @@ My principle research focus is on creating large-scale computational infrastruct
 
 - Showing that neural networks are essentially just polynomial regression in disguise (https://arxiv.org/abs/1806.06850)
 
-- Finding that drinking too much leads to the loss of an epigenetic enzyme (PRDM2) in the brain, which leads to loss of impulse control, which leads to alcoholism (https://www.nature.com/articles/mp2016131)
-
-- Revealing the epigenetic basis behind the cardioprotective effects of ischemic preconditioning (https://doi.org/10.1161/JAHA.116.004076)
+- Finding that drinking too much alcohol leads to the loss of an epigenetic enzyme (PRDM2) in the brain, which leads to loss of impulse control, which leads to alcoholism (https://www.nature.com/articles/mp2016131)
 
 - Supporting the Lisp community (https://doi.org/10.1093/bib/bbw130 and http://med.miami.edu/news/miller-school-researchers-help-push-the-limits-of-programming-languages-in-)
 

@@ -2,22 +2,16 @@
 title: "Contact"
 ---
 
-Or Gozani, M.D., Ph.D. <br />
-Morris Herzstein Professor of Biology <br />
-Department of Biology, Stanford University <br />
-371 Serra Mall, Room 208A <br />
-Stanford, CA 94305-5020 <br /> 
-tel (650) 736-7639 <br />
-fax (650) 725-8309 <br />
-email: ogozani@stanford.edu <br />
+Bohdan Khomtchouk, Ph.D. <br />
+Instructor, Department of Medicine <br />
+Section of Computational Biomedicine and Biomedical Data Science <br />
+Institute for Genomics and Systems Biology <br />
+University of Chicago <br />
+900 East 57th Street, KCBD 10150 <br /> 
+email: bohdan@uchicago.edu <br />
+Chicago, IL 60637 <br />
 
----
-<center>
-Lab Location: Gilbert 202-206
-
-
-![](figures/gilbert_map.jpeg){width=150px}
-
-[Searchable Campus Map](https://campus-map.stanford.edu)
-
-</center>
+Assistant: <br />
+Ms. Temi Okubadejo <br />
+(773) 702-6685 <br />
+tokubade@bsd.uchicago.edu <br />

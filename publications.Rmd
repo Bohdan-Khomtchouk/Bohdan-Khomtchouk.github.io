@@ -2,4 +2,4 @@
 title: "Publications"
 ---
 
-This is not a 404 error :)) -- but instead of formatting this page, I would rather spend the time [coding on Github](https://github.com/Bohdan-Khomtchouk) (or writing grants) so... please check my (fully up-to-date) [Google Scholar Citations page](https://scholar.google.com/citations?hl=en&user=pa6Zh9QAAAAJ&view_op=list_works&sortby=pubdate) for a list of publications.
+This is not a 404 error :)) -- but instead of periodically re-formatting this page, I would rather spend the time [coding on Github](https://github.com/Bohdan-Khomtchouk) (or meeting grant deadline submissions) so... please check my [Google Scholar Citations page](https://scholar.google.com/citations?hl=en&user=pa6Zh9QAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date list of publications.
