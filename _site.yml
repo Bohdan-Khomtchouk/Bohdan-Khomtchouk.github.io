@@ -14,7 +14,7 @@ navbar:
       href: miscellaneous.html
     - text: "Contact"
       icon: fa-envelope-o
-      href: mailto:bohdan@stanford.edu?cc=khomtchoukmed@gmail.com
+      href: contact.html
 output:
   html_document:
     theme: cosmo
