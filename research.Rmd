@@ -8,7 +8,7 @@ Previously, I was an American Heart Association (AHA) Postdoctoral Fellow workin
 
 **Research highlights in my portfolio include:**
 
-- Quilting together the world's cardiovascular disease data (https://www.heartbioportal.com and https://www.ahajournals.org/doi/10.1161/CIRCGEN.118.002426)
+- Creating the world's largest CVD data commons platform (https://www.heartbioportal.com and https://www.ahajournals.org/doi/10.1161/CIRCGEN.118.002426)
 
 - Computationally discovering and experimentally validating the epigenetic basis and biological mechanism behind the cardioprotective effects of ischemic preconditioning (https://doi.org/10.1161/JAHA.116.004076)
 
@@ -20,7 +20,7 @@ Previously, I was an American Heart Association (AHA) Postdoctoral Fellow workin
 
 - Finding that drinking too much alcohol leads to the loss of an epigenetic enzyme (PRDM2) in the brain, which leads to loss of impulse control, which leads to alcoholism (https://www.nature.com/articles/mp2016131)
 
-- Supporting the Lisp community (https://doi.org/10.1093/bib/bbw130 and http://med.miami.edu/news/miller-school-researchers-help-push-the-limits-of-programming-languages-in-)
+- Supporting the Lisp programming community (https://doi.org/10.1093/bib/bbw130 and http://med.miami.edu/news/miller-school-researchers-help-push-the-limits-of-programming-languages-in-)
 
 - Writing more heatmap software, can you tell I like heatmaps? (https://doi.org/10.1186/s12859-016-1260-x)
 
