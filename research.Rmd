@@ -2,15 +2,17 @@
 title: "Background"
 ---
 
-My lab's research program at UChicago concerns the emerging field of cardioinformatics, working at the nexus of bioinformatics and precision cardiology.  My principal research focus is on creating large-scale computational infrastructure and algorithms for powering the world's cardiovascular disease (CVD) data at a massive scale and mining new insights from it -- working at the multidisciplinary interface of healthcare, algorithm design, software engineering, integrative bioinformatics, multi-omics, natural language processing, and statistical learning.  
+My lab's research program at UChicago concerns the emerging field of cardioinformatics, working at the nexus of bioinformatics and precision cardiology.  My principal research focus is on creating large-scale computational infrastructure for housing the world's cardiovascular/renal/metabolic disease data at a massive scale, and mining new insights from it via secondary analysis of existing clinical and genetic datasets.
 
-Previously, I was an American Heart Association (AHA) Postdoctoral Fellow working in the field of computational biology and cardiovascular medicine in the Gozani and Assimes Labs at Stanford University. My primary faculty advisor was Or Gozani MD, PhD (Department of Biology, Stanford University), and my secondary faculty mentor was Themistocles Assimes MD, PhD, FRCPC, FAHA (Department of Medicine, Cardiovascular Division, Stanford University School of Medicine). While at Stanford, I was involved in the NHLBI Trans-Omics for Precision Medicine (TOPMed) Whole Genome Sequencing Program (Atherosclerosis Working Group), which represented the largest subclinical atherosclerosis and coronary artery disease study to date (101,295 human genomes), and I served as a Research Associate in the VA Palo Alto Healthcare System working on CVD in the Million Veteran Program. I also started Quiltomics (http://www.quiltomics.com) and the Stanford R Group (http://www.stanfordr.com/).
+Previously, I was an American Heart Association (AHA) Postdoctoral Fellow working in the field of computational biology and cardiovascular medicine in the Gozani and Assimes Labs at Stanford University. My primary faculty advisor was Or Gozani MD, PhD (Department of Biology, Stanford University), and my secondary faculty mentor was Themistocles Assimes MD, PhD, FRCPC, FAHA (Department of Medicine, Cardiovascular Division, Stanford University School of Medicine). While at Stanford, I was involved in the NHLBI Trans-Omics for Precision Medicine (TOPMed) Whole Genome Sequencing Program (Atherosclerosis Working Group), which represented the largest subclinical atherosclerosis and coronary artery disease study at the time (101,295 human genomes), and I served as a Research Associate in the VA Palo Alto Healthcare System working on cardiovascular disease genomics profiles in Korean and Vietnam war veterans enrolled in the Million Veteran Program. I also started and ran the Stanford R Group (http://www.stanfordr.com/), attracting top speakers from the R programming language community and growing to 350+ members.
 
 **Research highlights in my portfolio include:**
 
-- Creating the world's largest CVD data commons platform (https://www.heartbioportal.com and https://www.ahajournals.org/doi/10.1161/CIRCGEN.118.002426)
+- Creating the world's largest CVD data commons platform (https://www.ahajournals.org/doi/10.1161/CIRCGEN.118.002426 and https://doi.org/10.1101/2020.10.19.346445)
 
-- Computationally discovering and experimentally validating the epigenetic basis and biological mechanism behind the cardioprotective effects of ischemic preconditioning (https://doi.org/10.1161/JAHA.116.004076)
+- Computationally pinpointing and experimentally validating the epigenetic basis and biological mechanism underlying the cardioprotective genetic effects of ischemic preconditioning (https://doi.org/10.1161/JAHA.116.004076)
+
+- Writing a solo-author AI/machine learning paper on exploring the evolutionary consequences of codon usage bias in over 13,000 biological organisms (https://doi.org/10.1101/2020.10.26.356295)
 
 - Writing the world's fastest biological heatmap software (https://doi.org/10.1371/journal.pone.0176334)
 
@@ -20,7 +22,7 @@ Previously, I was an American Heart Association (AHA) Postdoctoral Fellow workin
 
 - Finding that drinking too much alcohol leads to the loss of an epigenetic enzyme (PRDM2) in the brain, which leads to loss of impulse control, which leads to alcoholism (https://www.nature.com/articles/mp2016131)
 
-- Supporting the Lisp programming community (https://doi.org/10.1093/bib/bbw130 and http://med.miami.edu/news/miller-school-researchers-help-push-the-limits-of-programming-languages-in-)
+- Supporting the Lisp programming community (https://doi.org/10.1093/bib/bbw130)
 
 - Writing more heatmap software, can you tell I like heatmaps? (https://doi.org/10.1186/s12859-016-1260-x)
 

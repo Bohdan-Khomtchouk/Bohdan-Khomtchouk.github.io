@@ -1,7 +1,7 @@
 ---
 title: "Additional Information"
 ---
-While at Stanford, here was my neatly formatted profile (sorry, haven't had time to update my UChicago one, short of my NIH biosketch or CV/resume -- please contact me (or my admin) directly if you are a collaborator and require this documentation):
+While at Stanford, here was my neatly formatted profile (sorry, haven't had time to update my UChicago one, short of my NIH biosketch or CV/resume -- please contact me at bohdan@uchicago.edu (or my admin, Temi-Tope Okubadejo at: tokubade@medicine.bsd.uchicago.edu) directly if you are a collaborator and require this documentation):
 
 <center>
 ![](figures/misc.png)
