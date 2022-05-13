@@ -9,6 +9,9 @@ navbar:
     - text: "Publications"
       icon: fa-book
       href: publications.html
+    - text: "Funding"
+      icon: fa-money
+      href: funding.html
     - text: "Miscellaneous"
       icon: fa-rss
       href: miscellaneous.html
