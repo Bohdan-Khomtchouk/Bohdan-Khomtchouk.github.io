@@ -20,7 +20,7 @@ Previously, I was an American Heart Association (AHA) Postdoctoral Fellow workin
 
 - Showing that neural networks are essentially just polynomial regression in disguise (https://arxiv.org/abs/1806.06850)
 
-- Finding that drinking too much alcohol leads to the loss of an epigenetic enzyme (PRDM2) in the brain, which leads to loss of impulse control, which leads to alcoholism (https://www.nature.com/articles/mp2016131)
+- Finding that drinking too much alcohol leads to the loss of an epigenetic enzyme (PRDM2) in the brain, which leads to loss of impulse control, which leads to alcoholism (https://www.nature.com/articles/mp2016131).  Also, a follow-up on KDM6B published a few years later (https://onlinelibrary.wiley.com/doi/full/10.1111/adb.12816).  
 
 - Supporting the Lisp programming community (https://doi.org/10.1093/bib/bbw130)
 
@@ -33,6 +33,8 @@ Previously, I was an American Heart Association (AHA) Postdoctoral Fellow workin
 - Using single-cell RNA-seq approaches to discover new previously unclassified cell types in the heart (https://www.atherosclerosis-journal.com/article/S0021-9150(21)01464-7/fulltext)
 
 - Creating new biomedical natural language processing frameworks (https://www.nature.com/articles/s41540-021-00200-x)
+
+- Exploring the role of the microbiome in ear infections (https://www.nature.com/articles/s41522-021-00200-z)
 
 - Using WebAssembly to enable low latency interoperable augmented and virtual reality software (https://arxiv.org/abs/2110.07128)
 
