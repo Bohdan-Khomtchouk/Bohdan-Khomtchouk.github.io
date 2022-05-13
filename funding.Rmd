@@ -1,0 +1,12 @@
+---
+title: "Funding"
+---
+Here are some recent grants awarded to my lab:
+
+<center>
+![](figures/ongoing-funding.png)
+</center>
+
+<center>
+![](figures/completed-funding.png)
+</center>
