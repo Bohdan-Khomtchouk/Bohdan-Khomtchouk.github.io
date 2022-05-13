@@ -5,6 +5,7 @@ title: "Contact"
 Bohdan Khomtchouk, Ph.D. <br />
 Instructor, Department of Medicine <br />
 Section of Computational Biomedicine and Biomedical Data Science <br />
+Master of Science in Biomedical Informatics (MScBMI) Program <br />
 Institute for Genomics and Systems Biology <br />
 University of Chicago <br />
 900 East 57th Street, KCBD 10150 <br /> 
