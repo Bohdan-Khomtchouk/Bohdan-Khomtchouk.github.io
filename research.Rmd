@@ -26,4 +26,14 @@ Previously, I was an American Heart Association (AHA) Postdoctoral Fellow workin
 
 - Writing more heatmap software, can you tell I like heatmaps? (https://doi.org/10.1186/s12859-016-1260-x)
 
+- Showing how EGFR inhibition represents a novel drug target to treat vascular calcification in patients with chronic kidney disease, a particularly hard therapeutic area that still to this day has no good drugs that can effectively slow down, prevent, or reverse kidney damage.  Our lab’s cardioinformatics analyses of the MESA and Framingham cohorts showed that individuals with SNPs associated with increased serum concentrations of EGFR had elevated coronary artery calcium scores.  We then tested and confirmed this experimentally in both in vitro cultures of human coronary artery smooth muscle cells AND in a murine model of chronic kidney disease, essentially tying together in silico with in vitro and in vivo work. (https://doi.org/10.1101/2021.11.08.467799)
+
+- Computationally exploring the role that the cytoskeleton (and the underlying extracellular matrix that supports its cellular architecture) can have to enable an entirely new class of cardiovascular therapeutics. (https://doi.org/10.1080/17460441.2022.2047645)
+
+- Using single-cell RNA-seq approaches to discover new previously unclassified cell types in the heart. (https://www.atherosclerosis-journal.com/article/S0021-9150(21)01464-7/fulltext)
+
+- Creating new biomedical natural language processing frameworks. (https://www.nature.com/articles/s41540-021-00200-x)
+
+- Using WebAssembly to enable low latency interoperable augmented and virtual reality software. (https://arxiv.org/abs/2110.07128)
+
 - TBA -- lots of unpublished preprints (website likely not up-to-date)
